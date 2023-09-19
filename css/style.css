@@ -29,15 +29,18 @@ h1{
 }
 .banner{
     display: flex;
-    width: 100%;
-    height: 200px;
+    justify-content: center;
+    width: 60%;
+    height: 150px;
     rotate: (90deg);
+    margin: auto;
+    
+    
 }
 
 .banner-img{
     position: relative;
     width: 100%;
-    
     object-fit: cover;
 }
 a:hover{
@@ -52,8 +55,15 @@ a:hover{
 span{
     color: red;
 }
+
+section{
+    display: flex;
+    flex-direction: column;
+    
+}
 section,header{
-    margin:0 2rem 0 2rem;
+    margin: 1rem 20% 0 20%;
+    width: 60%;
 
 }
 
@@ -62,7 +72,11 @@ footer{
     width: 100%;
     gap: 1rem;
     display: flex;
-    position: absolute;
+    margin-top: 2rem;
+    position: relative;
     bottom: 0;
 }
 
+.active-color{
+    color: aquamarine;   
+}
